@@ -97,10 +97,10 @@ async function main() {
     // Criar licença do sistema
     const license = await prisma.license.create({
       data: {
-        credits: 10000, // 10.000 créditos iniciais
+        credits: 900000, // 900.000 créditos iniciais
         credits_used: 0,
         credits_value: 1.00, // R$ 1,00 por crédito
-        ggr_percentage: 15.00, // 15% de GGR
+        ggr_percentage: 0.00, // 0% de GGR
         total_earnings: 0.00,
         is_active: true
       }
