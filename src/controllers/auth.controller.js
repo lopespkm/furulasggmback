@@ -17,7 +17,7 @@ class AuthController {
         return res.status(400).json({
           success: false,
           message: 'Todos os campos obrigatórios devem ser preenchidos',
-          required_fields: ['email', 'password', 'cpf' 'phone']
+          required_fields: ['email', 'password', 'cpf']
         });
       }
 
